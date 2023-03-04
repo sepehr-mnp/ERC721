@@ -2,6 +2,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
+import "./IERC165.sol";
+
 interface IERC721 is IERC165 {
     function balanceOf(address owner) external view returns (uint balance);
 
