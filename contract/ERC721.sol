@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
+import "./IERC721.sol";
+
 contract ERC721 is IERC721 {
     event Transfer(address indexed from, address indexed to, uint indexed id);
     event Approval(address indexed owner, address indexed spender, uint indexed id);
