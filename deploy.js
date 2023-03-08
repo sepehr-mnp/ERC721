@@ -11,7 +11,7 @@ file = fs.readFileSync("contract/ERC721.sol").toString();
 var input = {
 	language: "Solidity",
 	sources: {
-		"Lottery.sol": {
+		"ERC721.sol": {
 			content: file,
 		},
 	},
